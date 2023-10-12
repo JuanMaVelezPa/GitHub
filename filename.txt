@@ -5,8 +5,10 @@ git config --list           Visualizar configuracion de git
 
 git add <file>              Add file
 git add .                   Add all files
-git commit                  
+git commit                      
 git push                    Upload changes from localrepository to web
 git pull                    Download change from web to localrepository
 git rm --cheched            Remove file to ram
 git restore <file>          Discard changes in working directory
+
+git show <file>             Changes of the file
