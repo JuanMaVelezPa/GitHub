@@ -12,3 +12,4 @@ git rm --cheched            Remove file to ram
 git restore <file>          Discard changes in working directory
 
 git show <file>             Changes of the file.
+
