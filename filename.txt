@@ -13,3 +13,4 @@ git restore <file>          Discard changes in working directory
 
 git show <file>             Changes of the file.
 
+ARCHIVO ORIGINAL
