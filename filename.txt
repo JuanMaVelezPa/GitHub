@@ -19,7 +19,13 @@ git restore <file>          Discard changes in working directory
 git show <file>             Changes of the file.
 git log                     Show all changes
 
+
+// Alias console
+alias/unalias
 alias git_arbolito="git log --all --graph --decorate --oneline"
+// Alias Git
+git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+git config --global alias.arbolito "log --all --graph --decorate --oneline"
 
 git tag -a v0.1 .m "mensaje" <id commit>
 git tag
