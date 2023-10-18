@@ -13,4 +13,4 @@ git restore <file>          Discard changes in working directory
 
 git show <file>             Changes of the file.
 
-ARCHIVO VERSION 1
+ARCHIVO VERSION 2
