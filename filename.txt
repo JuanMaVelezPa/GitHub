@@ -19,4 +19,16 @@ git restore <file>          Discard changes in working directory
 git show <file>             Changes of the file.
 git log                     Show all changes
 
+alias git_arbolito="git log --all --graph --decorate --oneline"
+
+git tag -a v0.1 .m "mensaje" <id commit>
+git tag
+git show-ref --tags
+git tag -d <tagname>
+git push origin :refs/tags/<tagname>
+
+git show-branch
+git show-branch -a
+gitk
+
 ARCHIVO VERSION 2
